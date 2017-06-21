@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1C02161EFB215F00DDD6CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C02151EFB215F00DDD6CB /* AppDelegate.swift */; };
+		AB1C02181EFB215F00DDD6CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C02171EFB215F00DDD6CB /* ViewController.swift */; };
+		AB1C021B1EFB215F00DDD6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1C02191EFB215F00DDD6CB /* Main.storyboard */; };
+		AB1C021D1EFB215F00DDD6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1C021C1EFB215F00DDD6CB /* Assets.xcassets */; };
+		AB1C02201EFB215F00DDD6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1C021E1EFB215F00DDD6CB /* LaunchScreen.storyboard */; };
+		AB1C022B1EFB215F00DDD6CB /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C022A1EFB215F00DDD6CB /* FlixTests.swift */; };
+		AB1C02361EFB215F00DDD6CB /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C02351EFB215F00DDD6CB /* FlixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB1C02271EFB215F00DDD6CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1C020A1EFB215F00DDD6CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1C02111EFB215F00DDD6CB;
+			remoteInfo = Flix;
+		};
+		AB1C02321EFB215F00DDD6CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1C020A1EFB215F00DDD6CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1C02111EFB215F00DDD6CB;
+			remoteInfo = Flix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB1C02121EFB215F00DDD6CB /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C02151EFB215F00DDD6CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB1C02171EFB215F00DDD6CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB1C021A1EFB215F00DDD6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB1C021C1EFB215F00DDD6CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB1C021F1EFB215F00DDD6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB1C02211EFB215F00DDD6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1C02261EFB215F00DDD6CB /* FlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C022A1EFB215F00DDD6CB /* FlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixTests.swift; sourceTree = "<group>"; };
+		AB1C022C1EFB215F00DDD6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1C02311EFB215F00DDD6CB /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C02351EFB215F00DDD6CB /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
+		AB1C02371EFB215F00DDD6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1C020F1EFB215F00DDD6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C02231EFB215F00DDD6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C022E1EFB215F00DDD6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1C02091EFB215F00DDD6CB = {
+			isa = PBXGroup;
+			children = (
+				AB1C02141EFB215F00DDD6CB /* Flix */,
+				AB1C02291EFB215F00DDD6CB /* FlixTests */,
+				AB1C02341EFB215F00DDD6CB /* FlixUITests */,
+				AB1C02131EFB215F00DDD6CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1C02131EFB215F00DDD6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C02121EFB215F00DDD6CB /* Flix.app */,
+				AB1C02261EFB215F00DDD6CB /* FlixTests.xctest */,
+				AB1C02311EFB215F00DDD6CB /* FlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1C02141EFB215F00DDD6CB /* Flix */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C02151EFB215F00DDD6CB /* AppDelegate.swift */,
+				AB1C02171EFB215F00DDD6CB /* ViewController.swift */,
+				AB1C02191EFB215F00DDD6CB /* Main.storyboard */,
+				AB1C021C1EFB215F00DDD6CB /* Assets.xcassets */,
+				AB1C021E1EFB215F00DDD6CB /* LaunchScreen.storyboard */,
+				AB1C02211EFB215F00DDD6CB /* Info.plist */,
+			);
+			path = Flix;
+			sourceTree = "<group>";
+		};
+		AB1C02291EFB215F00DDD6CB /* FlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C022A1EFB215F00DDD6CB /* FlixTests.swift */,
+				AB1C022C1EFB215F00DDD6CB /* Info.plist */,
+			);
+			path = FlixTests;
+			sourceTree = "<group>";
+		};
+		AB1C02341EFB215F00DDD6CB /* FlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C02351EFB215F00DDD6CB /* FlixUITests.swift */,
+				AB1C02371EFB215F00DDD6CB /* Info.plist */,
+			);
+			path = FlixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1C02111EFB215F00DDD6CB /* Flix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C023A1EFB215F00DDD6CB /* Build configuration list for PBXNativeTarget "Flix" */;
+			buildPhases = (
+				AB1C020E1EFB215F00DDD6CB /* Sources */,
+				AB1C020F1EFB215F00DDD6CB /* Frameworks */,
+				AB1C02101EFB215F00DDD6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flix;
+			productName = Flix;
+			productReference = AB1C02121EFB215F00DDD6CB /* Flix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB1C02251EFB215F00DDD6CB /* FlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C023D1EFB215F00DDD6CB /* Build configuration list for PBXNativeTarget "FlixTests" */;
+			buildPhases = (
+				AB1C02221EFB215F00DDD6CB /* Sources */,
+				AB1C02231EFB215F00DDD6CB /* Frameworks */,
+				AB1C02241EFB215F00DDD6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1C02281EFB215F00DDD6CB /* PBXTargetDependency */,
+			);
+			name = FlixTests;
+			productName = FlixTests;
+			productReference = AB1C02261EFB215F00DDD6CB /* FlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB1C02301EFB215F00DDD6CB /* FlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C02401EFB215F00DDD6CB /* Build configuration list for PBXNativeTarget "FlixUITests" */;
+			buildPhases = (
+				AB1C022D1EFB215F00DDD6CB /* Sources */,
+				AB1C022E1EFB215F00DDD6CB /* Frameworks */,
+				AB1C022F1EFB215F00DDD6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1C02331EFB215F00DDD6CB /* PBXTargetDependency */,
+			);
+			name = FlixUITests;
+			productName = FlixUITests;
+			productReference = AB1C02311EFB215F00DDD6CB /* FlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1C020A1EFB215F00DDD6CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tiffany Madruga";
+				TargetAttributes = {
+					AB1C02111EFB215F00DDD6CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					AB1C02251EFB215F00DDD6CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB1C02111EFB215F00DDD6CB;
+					};
+					AB1C02301EFB215F00DDD6CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB1C02111EFB215F00DDD6CB;
+					};
+				};
+			};
+			buildConfigurationList = AB1C020D1EFB215F00DDD6CB /* Build configuration list for PBXProject "Flix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1C02091EFB215F00DDD6CB;
+			productRefGroup = AB1C02131EFB215F00DDD6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1C02111EFB215F00DDD6CB /* Flix */,
+				AB1C02251EFB215F00DDD6CB /* FlixTests */,
+				AB1C02301EFB215F00DDD6CB /* FlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1C02101EFB215F00DDD6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C02201EFB215F00DDD6CB /* LaunchScreen.storyboard in Resources */,
+				AB1C021D1EFB215F00DDD6CB /* Assets.xcassets in Resources */,
+				AB1C021B1EFB215F00DDD6CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C02241EFB215F00DDD6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C022F1EFB215F00DDD6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1C020E1EFB215F00DDD6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C02181EFB215F00DDD6CB /* ViewController.swift in Sources */,
+				AB1C02161EFB215F00DDD6CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C02221EFB215F00DDD6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C022B1EFB215F00DDD6CB /* FlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C022D1EFB215F00DDD6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C02361EFB215F00DDD6CB /* FlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB1C02281EFB215F00DDD6CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1C02111EFB215F00DDD6CB /* Flix */;
+			targetProxy = AB1C02271EFB215F00DDD6CB /* PBXContainerItemProxy */;
+		};
+		AB1C02331EFB215F00DDD6CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1C02111EFB215F00DDD6CB /* Flix */;
+			targetProxy = AB1C02321EFB215F00DDD6CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB1C02191EFB215F00DDD6CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1C021A1EFB215F00DDD6CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB1C021E1EFB215F00DDD6CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1C021F1EFB215F00DDD6CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1C02381EFB215F00DDD6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB1C02391EFB215F00DDD6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1C023B1EFB215F00DDD6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiffany.Flix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB1C023C1EFB215F00DDD6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiffany.Flix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AB1C023E1EFB215F00DDD6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiffany.FlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flix.app/Flix";
+			};
+			name = Debug;
+		};
+		AB1C023F1EFB215F00DDD6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiffany.FlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flix.app/Flix";
+			};
+			name = Release;
+		};
+		AB1C02411EFB215F00DDD6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiffany.FlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Flix;
+			};
+			name = Debug;
+		};
+		AB1C02421EFB215F00DDD6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiffany.FlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Flix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1C020D1EFB215F00DDD6CB /* Build configuration list for PBXProject "Flix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C02381EFB215F00DDD6CB /* Debug */,
+				AB1C02391EFB215F00DDD6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1C023A1EFB215F00DDD6CB /* Build configuration list for PBXNativeTarget "Flix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C023B1EFB215F00DDD6CB /* Debug */,
+				AB1C023C1EFB215F00DDD6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB1C023D1EFB215F00DDD6CB /* Build configuration list for PBXNativeTarget "FlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C023E1EFB215F00DDD6CB /* Debug */,
+				AB1C023F1EFB215F00DDD6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB1C02401EFB215F00DDD6CB /* Build configuration list for PBXNativeTarget "FlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C02411EFB215F00DDD6CB /* Debug */,
+				AB1C02421EFB215F00DDD6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1C020A1EFB215F00DDD6CB /* Project object */;
+}
