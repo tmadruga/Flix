@@ -15,6 +15,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     //outlets
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var movieActivityIndicator: UIActivityIndicatorView!
+    
+    
     var movies: [[String: Any]] = []
 
     var refreshControl: UIRefreshControl!
@@ -29,7 +32,14 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         tableView.insertSubview(refreshControl, at: 0)
         
         tableView.dataSource = self
+        // Start the activity indicator
+        movieActivityIndicator.startAnimating()
+        
+        // Stop the activity indicator
+        // Hides automatically if "Hides When Stopped" is enabled
         fetchMovies()
+        
+       
         
         
         
@@ -60,7 +70,6 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
             }
         }
         
-        
         task.resume()
     }
 
@@ -85,7 +94,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         let posterURL = URL(string: baseURLString + posterPathString)!
         cell.posterImageView.af_setImage(withURL: posterURL)
         
-        
+        movieActivityIndicator.stopAnimating()
         return cell
     }
     
