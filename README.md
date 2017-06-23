@@ -15,7 +15,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-- [ ] User sees an error message when there's a networking error.
+- [x] User sees an error message when there's a networking error.
 - [ ] Movies are displayed using a CollectionView instead of a TableView.
 - [ ] User can search for a movie.
 - [ ] All images fade in as they are loading.
@@ -27,11 +27,12 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Changed colors of details page and edited format to increase readability
+- [ ] 
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
+1. Inserting a scroll bar to the details page so that the description does not have to be squished into a certain UILabel
 2.
 
 ## Video Walkthrough
@@ -51,20 +52,6 @@ There were some challenges with making sure all outlets were connected.
 List an 3rd party libraries, icons, graphics, or other assets you used in your app.
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
-- [ASStarRatingView] (https://github.com/yanguango/ASStarRatingView) - Star Rating
-      ASStarRatingView Usage Granted by following the conditions below:
-      Copyright (c) 2014 yanguango
-
-      Permission is hereby granted, free of charge, to any person obtaining a copy
-      of this software and associated documentation files (the "Software"), to deal
-      in the Software without restriction, including without limitation the rights
-      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-      copies of the Software, and to permit persons to whom the Software is
-      furnished to do so, subject to the following conditions:
-
-      The above copyright notice and this permission notice shall be included in
-      all copies or substantial portions of the Software.
-
 ## License
 
 Copyright 2017 Tiffany Madruga
