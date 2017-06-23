@@ -48,6 +48,7 @@ class DetailViewController: UIViewController {
             titleLabel.adjustsFontSizeToFitWidth = true
             releaseDateLabel.text = movie["release_date"] as? String
             overviewLabel.text = movie["overview"] as? String
+            overviewLabel.adjustsFontSizeToFitWidth = true
             overviewLabel.sizeToFit()
             
             ratingValueLabel.text = "\(movie["vote_average"]!)/10"
@@ -62,6 +63,9 @@ class DetailViewController: UIViewController {
             let posterpathURL = URL(string: baseURLString + posterPathString)!
             posterImageView.af_setImage(withURL: posterpathURL)
             posterImageView.layer.borderColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1.0).cgColor
+            posterImageView.layer.shadowOpacity = 1
+            posterImageView.layer.shadowOffset = CGSize(width: 0, height: 0)
+            posterImageView.layer.shadowRadius = 2
             posterImageView.layer.borderWidth = 3
             posterImageView.contentMode = .scaleAspectFit
         }
