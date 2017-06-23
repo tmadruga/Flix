@@ -22,10 +22,10 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
 
     var refreshControl: UIRefreshControl!
     
+    let alertController = UIAlertController(title: "Cannot Get Movies", message: "No connection available", preferredStyle: .alert)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
         refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector (NowPlayingViewController.didPullToRefresh(_:)), for: .valueChanged)
@@ -35,13 +35,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         // Start the activity indicator
         movieActivityIndicator.startAnimating()
         
-        // Stop the activity indicator
-        // Hides automatically if "Hides When Stopped" is enabled
         fetchMovies()
-        
-       
-        
-        
         
     }
     
@@ -58,7 +52,22 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
             
             //checks if nil --> if not it will go through the curly brackets
             if let error = error {
+                // create an OK action
+                let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                    // handle response here.
+                }
+                // add the OK action to the alert controller
+                self.alertController.addAction(OKAction)
+                
+                self.present(self.alertController, animated: true) {
+                    // optional code for what happens after the alert controller has finished presenting
+                }
+                self.refreshControl.endRefreshing()
+                self.movieActivityIndicator.stopAnimating()
                 print(error.localizedDescription)
+                
+                
+                
             } else if let data = data{
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String : Any]
                 print(dataDictionary)
