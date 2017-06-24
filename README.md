@@ -33,13 +33,13 @@ The following **additional** features are implemented:
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. Inserting a scroll bar to the details page so that the description does not have to be squished into a certain UILabel
-2.
+2. Extending to embed movie trailers and resize pages accordingly.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/HcObRSQ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/NumsXoQ.gifv' 'title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
